@@ -3,6 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 96px 50px;
+  height: 293px;
 }
 
 .header_logo {
@@ -22,7 +23,7 @@
     padding-right: 13px;
 }
 
-.header_links-list-item{
+.header_link{
     font-size: 18px;
     font-weight: 400px;
     text-underline-offset: 4px;
@@ -33,7 +34,7 @@
   list-style-type: none;
 }
 
-.header_link{
+.header_link_active{
     text-decoration: none;
 }
 
@@ -44,6 +45,7 @@
     line-height: 24.3px;
     text-underline-offset: 4px;
     list-style-type: none;
+    padding-right: 50px;
 }
 
 /*КОВЕР*/
@@ -57,13 +59,12 @@
     z-index: 0;
     background-repeat: no-repeat;
     background-position: center;
+    height: 757px;
+
   }
 
   .overlay {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -74,7 +75,7 @@
   .cover_title {
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 207px;
+    padding: 165px 50px 50px;
     gap: 20px; 
     text-align: center;
   }
@@ -103,8 +104,9 @@
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 0px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
     gap: 79px;
+    text-align: justify;
   }
   
   .cover_text {
@@ -112,11 +114,12 @@
     font-weight: 400;
     line-height: 28px;
     word-spacing: 18px;
+    text-transform: uppercase;
   }
   
   .bet-button{
-    width: 256px;
-    height: 51px;
+    min-width: 256px;
+    min-height: 51px;
     border: 1px solid white;
     background-color: transparent;
     font-family: "Raleway", sans-serif;
@@ -129,6 +132,9 @@
 
   /*карточки*/
 
+.lots{
+  height: 723px;
+}
 .lots_heading{
   padding-top: 180px;
   padding-bottom: 27px;
@@ -170,15 +176,15 @@
 }
 
 .card_type_film{
-background-image: url(./../images/card-lot-01.jpg);
+background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book{
-background-image: url(./../images/card-lot-02.jpg);
+background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture{
-background-image: url(./../images/card-lot-03.jpg);
+background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title{
@@ -213,6 +219,7 @@ background-image: url(./../images/card-lot-03.jpg);
 
   .about {
     margin-top: 118px;
+    padding: 120px 24px 90px 0px;
   }
   
   .about_column {
@@ -231,6 +238,7 @@ background-image: url(./../images/card-lot-03.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
   
   .about_logo_image {
@@ -243,6 +251,7 @@ background-image: url(./../images/card-lot-03.jpg);
     flex-direction: column;
     gap: 24px;
     padding-top: 100px;
+    width: 680px;
   }
   
   .about_title {
@@ -250,6 +259,7 @@ background-image: url(./../images/card-lot-03.jpg);
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
+    padding-bottom: 80px;
   }
   
   .about_text {
@@ -259,19 +269,22 @@ background-image: url(./../images/card-lot-03.jpg);
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-  }
+    padding: 0.1px;
+    max-width: 693px;
   
-  .text_up {
-    padding-top: 100px;
-    padding-bottom: 24px;
-  } 
+  }
+
+  .text{
+    padding-bottom: 25px;
+    
+  }
 
   /*ФУТЕР*/
 
   .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 180px 50px 82px;
+  padding: 90px 50px 82px 50px;
   gap: 140px;
   align-items: flex-start;
 }
@@ -308,4 +321,11 @@ background-image: url(./../images/card-lot-03.jpg);
   gap: 48px;
 }
 
-/*СЛИШКОМ СЛОЖНО ДЛЯ ПЕРВОГО ПРОЕКТА*/
+.footer_address {
+  justify-self: end;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+  list-style-type: none;
+}

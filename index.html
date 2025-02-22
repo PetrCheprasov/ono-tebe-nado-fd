@@ -13,19 +13,19 @@
     <header class="header">
       <nav class="header_menu">
         <ul class="header_links-list">
-          <li class="header_links-list-item header_links-list-item_no-bullit">
-            <a class="header_link" href="#0">главная</a>
+          <li class="header_link header_links-list-item_no-bullit">
+            <a class="header_link header_link_active" href="#0">главная</a>
           </li>
-          <li class="header_links-list-item">
+          <li class="header_link">
             <a href="#0">посмотреть лоты</a>
           </li>
-          <li class="header_links-list-item">
+          <li class="header_link">
             <a href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a>
-        <img class="header_logo" src="./images/logo-black.svg" alt="image" />
+        <img class="header_logo" src="./images/logo-black.svg" alt="логотип черный квадрат с надписью Оно тебе надо" />
       </a>
       <address>
         <ul class="header_address">
@@ -60,7 +60,7 @@
           </span>
         </h1>
         <div class="cover_description">
-          <p class="cover_text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
+          <p class="cover_text">аукцион вещей, в которые никто не верил</p>
           <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
         </div>
       </section>
@@ -73,9 +73,11 @@
         <li class="lots_card-list-item">
           <article class="card card_type_film">
             <div class="overlay"></div>
+            <h3>
           <a class="card_title">
             Фильм режиссёра, который бросил киношколу
           </a>
+            </h3>
           <p class="card_text">
             Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
             ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -85,9 +87,11 @@
         <li class="lots_card-list-item">
           <article class="card card_type_book">
           <div class="overlay"></div>
+          <h3>
           <a class="card_title">
             Книга, где описан один скучный день из жизни рекламного агента
           </a>
+          </h3>
           <p class="card_text">
             Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
             переходами на древнеанглийский. В ней одновременно 
@@ -101,9 +105,11 @@
         <li class="lots_card-list-item">
           <article class="card card_type_picture">
           <div class="overlay"></div>
+          <h3>
           <a class="card_title">
             Картина, которую повторит даже 5-летний сын маминой подруги
           </a>
+          </h3>
           <p class="card_text">
             Ну действительно, там линия, тут кружочек, а здесь и вовсе 
             что-то похожее на инфузорию-туфельку. Никаких полей, лесов, 
@@ -132,25 +138,19 @@
           <div class="about_content">
             <h2 class="about_title">ОБ АУКЦИОНЕ</h2>
             <div class="about_text">
-              <p class="text_up">
-                Здесь вы не встретите очередное пафосное cобрание невероятно<br />
-                дорогого антиквариата. Наши лоты вообще не должны были
-                попасть <br />
-                ни на один аукцион. Потому что кому нужен дневник
+              <p class="text">
+                Здесь вы не встретите очередное пафосное cобрание невероятно дорогого антиквариата. 
+                Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник
                 девочки-подростка или картина, которую может нарисовать даже ребёнок? 
                 Кому нужны все эти странные вещи, созданные любителями?
               </p>
-              <p>
-                Слишком сложные или, наоборот, слишком простые. Опережающие
-                <br />своё время. В пух и прах растерзанные критиками.
-                Непринятые и<br />
-                непонятые. Когда-то они казались просто неудачными Но,
-                несмотря<br />
-                на критику, кажущуюся простоту или сложность, сейчас без этих<br />
-                лотов невозможно представить современную культуру. Когда в
-                эти<br />
-                вещи не верил никто, продолжали верить их создатели. И сейчас
-                <br />
+              <p class="text">
+                Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
+                В пух и прах растерзанные критиками. Непринятые и
+                непонятые. Когда-то они казались просто неудачными Но,несмотря 
+                на критику, кажущуюся простоту или сложность, сейчас без этих лотов 
+                невозможно представить современную культуру. Когда в
+                эти вещи не верил никто, продолжали верить их создатели. И сейчас
                 эти лоты стали культовыми.
               </p>
             </div>
@@ -163,7 +163,7 @@
 
     <footer class="footer">
       <address>
-        <ul class="header_address">
+        <ul class="footer_address">
           <li>
             <a href="tel.+99995555555">+9 999 555 5555</a>
           </li>
@@ -179,13 +179,13 @@
       <nav>
         <ul class="footer_menu_list">
           <li class="footer_menu-list-item">
-            <a href="#0" class="footer_menu-link_active"> главная </a>
+            <a href="#0" class="footer_menu-list-item footer_menu-link_active"> главная </a>
           </li>
           <li class="footer_menu-list-item">
-            <a href="#0"> посмотреть лоты </a>
+            <a href="#0" class="footer_menu-link"> посмотреть лоты </a>
           </li>
           <li class="footer_menu-list-item">
-            <a href="#0"> об аукционе </a>
+            <a href="#0" class="footer_menu-link"> об аукционе </a>
           </li>
         </ul>
       </nav>
@@ -212,4 +212,3 @@
   </body>
 </html>
 
-<!--Я УСТАЛ-->
