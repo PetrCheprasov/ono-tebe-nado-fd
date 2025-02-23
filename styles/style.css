@@ -86,7 +86,7 @@
     text-align: center;  
     font-weight: 700px;
     font-size: 100px;
-    letter-spacing: 25px;
+    letter-spacing: 28px;
   }
   
   
@@ -104,7 +104,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 50px 50px 50px 50px;
+    padding: 55px 50px 50px 45px;
     gap: 79px;
     text-align: justify;
   }
@@ -219,7 +219,7 @@ background-image: url(../images/card-lot-03.jpg);
 
   .about {
     margin-top: 118px;
-    padding: 120px 24px 90px 0px;
+    padding: 240px 24px 90px 0px;
   }
   
   .about_column {
