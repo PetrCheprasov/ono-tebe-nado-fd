@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 30px 92px 50px;
+  padding: 92px 40px 92px 50px;
 }
 
 .header_logo {
@@ -19,7 +19,7 @@
     display: flex;
     gap: 32px;
     list-style-type: circle;
-    padding-right: 13px;
+    padding-right: 7px;
 }
 
 .header_link{
