@@ -108,7 +108,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 55px 70px 50px 40px;
+    padding: 55px 80px 50px 40px;
     gap: 79px;
     text-align: justify;
   }
@@ -292,7 +292,7 @@ background-image: url(../images/card-lot-03.jpg);
   padding: 360px 50px 82px 50px;
   gap: 140px;
   align-items: flex-start;
-  height: 600px;
+  height: 500px;
 }
 
 .footer_menu_list {
