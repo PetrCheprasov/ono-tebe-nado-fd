@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px 94px 50px;
+  padding: 90px 50px 92px 50px;
 }
 
 .header_logo {
@@ -59,8 +59,6 @@
     z-index: 0;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 757px;
-
   }
 
   .overlay {
@@ -114,6 +112,7 @@
     font-weight: 400;
     line-height: 28px;
     word-spacing: 18px;
+    gap: 79px;
   }
   
   .bet-button{
