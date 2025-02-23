@@ -72,11 +72,11 @@
 
   .cover_title {
     display: flex;
-    gap: 20px;
     flex-direction: column;
     padding: 167px 50px 50px;
     text-align: center;
-    letter-spacing: 22px;
+    letter-spacing: 15px;
+    margin: 0 5px;
   }
   
   .text_cover { 
@@ -89,18 +89,21 @@
   }
   .aligned-text_left {
     letter-spacing: 15px;
+    margin: 30px;
   }
   
   .aligned-text_center {
     align-self: center;  
     text-align: center;
-    letter-spacing: 22px;
+    letter-spacing: 15px;
+    margin: 30px;
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
-    letter-spacing: 22px;
+    letter-spacing: 15px;
+    margin: 30px;
   } 
 
   .cover_description {
