@@ -87,19 +87,19 @@
  
   }
   .aligned-text_left {
-    letter-spacing: 22px;
+    letter-spacing: 15px;
   }
   
   .aligned-text_center {
     align-self: center;  
     text-align: center;
-    letter-spacing: 22px;
+    letter-spacing: 15px;
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
-    letter-spacing: 22px;
+    letter-spacing: 15px;
   } 
 
   .cover_description {
@@ -223,7 +223,7 @@ background-image: url(../images/card-lot-03.jpg);
   .about_column {
     display: grid;
     grid-template-columns: 334px repeat(1, 1fr);
-    gap: 24px;
+    gap: 25px;
     padding: 35px 19px 0px;
   }
   
