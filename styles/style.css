@@ -72,9 +72,9 @@
 
   .cover_title {
     display: flex;
+    gap: 20px;
     flex-direction: column;
     padding: 167px 50px 50px;
-    gap: 20px; 
     text-align: center;
   }
   
@@ -84,10 +84,10 @@
     text-align: center;  
     font-weight: 700px;
     font-size: 100px;
-    letter-spacing: 66px;
+ 
   }
   .aligned-text_left {
-letter-spacing: 22px;
+    letter-spacing: 22px;
   }
   
   .aligned-text_center {
@@ -127,7 +127,6 @@ letter-spacing: 22px;
     font-family: "Raleway", sans-serif;
     color: #fff;
     font-size: 22px;
-    line-height: 51px;
     font-weight: 500;
     text-align: center;
   }
@@ -135,7 +134,7 @@ letter-spacing: 22px;
   /*карточки*/
 
 .lots_heading{
-  padding-top: 180px;
+  padding-top: 175px;
   padding-bottom: 27px;
   padding-left: 64px;
   color: black;
