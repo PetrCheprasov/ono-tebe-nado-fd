@@ -44,7 +44,7 @@
     line-height: 24.3px;
     text-underline-offset: 4px;
     list-style-type: none;
-    padding-right: 45px;
+    padding-right: 50px;
 }
 
 /*КОВЕР*/
@@ -74,7 +74,7 @@
   .cover_title {
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 50px;
+    padding: 167px 50px 50px;
     gap: 20px; 
     text-align: center;
   }
@@ -215,7 +215,7 @@ background-image: url(../images/card-lot-03.jpg);
 
   .about {
     margin-top: 60px;
-    padding: 58px 24px 70px 0px;
+    padding: 55px 24px 70px 0px;
   }
   
   .about_column {
@@ -256,7 +256,7 @@ background-image: url(../images/card-lot-03.jpg);
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-    padding-bottom: 80px;
+    padding-bottom: 77px;
   }
   
   .about_text {
@@ -281,7 +281,7 @@ background-image: url(../images/card-lot-03.jpg);
   .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 70px 50px 82px 50px;
+  padding: 60px 50px 82px 50px;
   gap: 140px;
   align-items: flex-start;
 }
