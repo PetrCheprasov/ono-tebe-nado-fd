@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 40px 92px 50px;
+  padding: 90px 50px 92px 50px;
 }
 
 .header_logo {
@@ -44,7 +44,8 @@
     letter-spacing: 0.18px;
     font-family: "Raleway", sans-serif;
     list-style-type: none;
-    font-style: normal; 
+    font-style: normal;
+    text-underline-offset: 4px;
 }
 
 /*КОВЕР*/
