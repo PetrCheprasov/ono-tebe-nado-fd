@@ -30,7 +30,7 @@
 
 
 .header_links-list-item_no-bullit{
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .header_link_active{
@@ -38,13 +38,13 @@
 }
 
 .header_address {
-    justify-self: end;
+    padding-left: 185px;
     font-size: 18px;
-    font-style: normal;
     line-height: 24.3px;
-    text-underline-offset: 4px;
+    letter-spacing: 0.18px;
+    font-family: "Raleway", sans-serif;
     list-style-type: none;
-    padding-right: 50px;
+    font-style: normal; 
 }
 
 /*КОВЕР*/
