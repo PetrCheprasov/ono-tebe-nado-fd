@@ -76,6 +76,7 @@
     flex-direction: column;
     padding: 167px 50px 50px;
     text-align: center;
+    letter-spacing: 22px;
   }
   
   .text_cover { 
@@ -93,13 +94,13 @@
   .aligned-text_center {
     align-self: center;  
     text-align: center;
-    letter-spacing: 15px;
+    letter-spacing: 22px;
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
-    letter-spacing: 15px;
+    letter-spacing: 22px;
   } 
 
   .cover_description {
