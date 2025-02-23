@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
+  padding: 92px 24px 92px 24px;
 }
 
 .header_logo {
@@ -281,7 +281,7 @@ background-image: url(../images/card-lot-03.jpg);
   .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 60px 50px 82px 50px;
+  padding: 60px 50px 60px 50px;
   gap: 140px;
   align-items: flex-start;
 }
