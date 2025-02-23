@@ -84,26 +84,30 @@
     text-align: center;  
     font-weight: 700px;
     font-size: 100px;
-    letter-spacing: 22px;
+    letter-spacing: 66px;
   }
-  
+  .aligned-text_left {
+letter-spacing: 22px;
+  }
   
   .aligned-text_center {
     align-self: center;  
     text-align: center;
+    letter-spacing: 22px;
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
+    letter-spacing: 22px;
   } 
-  
+
   .cover_description {
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 55px 50px 55px 78px;
-    gap: 79px;
+    padding: 55px 50px 55px 50px;
+    gap: 107px;
     text-align: justify;
   }
   
