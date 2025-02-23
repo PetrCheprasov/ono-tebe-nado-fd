@@ -8,6 +8,7 @@
 .header_logo {
     width: 130px;
     height: 105px;
+    top: 1.2px;
 }
 
 .header_menu{
@@ -19,13 +20,13 @@
     display: flex;
     gap: 32px;
     list-style-type: circle;
-    padding-right: 4px;
+    
 }
 
 .header_link{
     font-size: 18px;
     font-weight: 400px;
-    text-underline-offset: 4px;
+    text-underline-offset: 3px;
 }
 
 
