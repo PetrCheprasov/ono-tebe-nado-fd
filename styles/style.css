@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px 92px 50px;
+  padding: 90px 50px 94px 50px;
 }
 
 .header_logo {
@@ -19,7 +19,7 @@
     display: flex;
     gap: 32px;
     list-style-type: circle;
-    padding-right: 7px;
+    padding-right: 4px;
 }
 
 .header_link{
@@ -38,7 +38,7 @@
 }
 
 .header_address {
-    padding-left: 185px;
+    padding-left: 195px;
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0.18px;
