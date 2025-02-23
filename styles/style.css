@@ -44,7 +44,7 @@
     line-height: 24.3px;
     text-underline-offset: 4px;
     list-style-type: none;
-    padding-right: 50px;
+    padding-right: 60px;
 }
 
 /*КОВЕР*/
@@ -215,7 +215,7 @@ background-image: url(../images/card-lot-03.jpg);
 
   .about {
     margin-top: 118px;
-    padding: 180px 24px 180px 0px;
+    padding: 90px 24px 180px 0px;
   }
   
   .about_column {
@@ -281,7 +281,7 @@ background-image: url(../images/card-lot-03.jpg);
   .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 360px 50px 82px 50px;
+  padding: 180px 50px 82px 50px;
   gap: 140px;
   align-items: flex-start;
 }
