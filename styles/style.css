@@ -75,7 +75,7 @@
   .cover_title {
     display: flex;
     flex-direction: column;
-    padding: 165px 60px 50px;
+    padding: 165px 50px 50px;
     gap: 20px; 
     text-align: center;
   }
@@ -93,22 +93,20 @@
   .aligned-text_center {
     align-self: center;  
     text-align: center;
-    letter-spacing: 20px;
-    font-weight: 339px;  
+    letter-spacing: 20px; 
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
     letter-spacing: 25px;
-    font-weight: 387px;  
   } 
   
   .cover_description {
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 55px 40px 50px 40px;
+    padding: 55px 50px 50px 40px;
     gap: 79px;
     text-align: justify;
   }
