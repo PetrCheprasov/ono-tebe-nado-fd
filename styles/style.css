@@ -86,21 +86,18 @@
     text-align: center;  
     font-weight: 700px;
     font-size: 100px;
-    letter-spacing: 10px;
+    letter-spacing: 22px;
   }
   
   
   .aligned-text_center {
     align-self: center;  
     text-align: center;
-    letter-spacing: 10px; 
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
-    letter-spacing: 25px;
-    padding-right: 10px;
   } 
   
   .cover_description {
