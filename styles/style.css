@@ -217,14 +217,14 @@ background-image: url(../images/card-lot-03.jpg);
 
   .about {
     margin-top: 60px;
-    padding: 55px 24px 90px 0px;
+    padding: 55px 24px 95px 0px;
   }
   
   .about_column {
     display: grid;
     grid-template-columns: 334px repeat(1, 1fr);
-    gap: 22px;
-    padding: 35px 20px 0px;
+    gap: 24px;
+    padding: 35px 19px 0px;
   }
   
   .about_logo {
