@@ -217,14 +217,14 @@ background-image: url(../images/card-lot-03.jpg);
 
   .about {
     margin-top: 60px;
-    padding: 55px 24px 70px 0px;
+    padding: 55px 24px 90px 0px;
   }
   
   .about_column {
     display: grid;
     grid-template-columns: 334px repeat(1, 1fr);
-    gap: 25px;
-    padding: 35px 24px 0px;
+    gap: 22px;
+    padding: 35px 20px 0px;
   }
   
   .about_logo {
@@ -248,7 +248,7 @@ background-image: url(../images/card-lot-03.jpg);
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 100px;
+    padding-top: 105px;
     width: 100%;
     max-width: 680px;
   }
@@ -283,7 +283,7 @@ background-image: url(../images/card-lot-03.jpg);
   .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 60px 50px 60px 50px;
+  padding: 60px 50px 80px 50px;
   gap: 140px;
   align-items: flex-start;
 }
