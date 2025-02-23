@@ -84,7 +84,7 @@
     align-self: flex-start;
     line-height: 115%;
     text-align: center;  
-    font-weight: 700px;
+    font-weight: 30%;
     font-size: 100px;
     letter-spacing: 20px;
   }
@@ -100,7 +100,7 @@
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
-    letter-spacing: 20px;
+    letter-spacing: 25px;
     font-weight: 387px;  
   } 
   
@@ -108,7 +108,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 55px 50px 50px 40px;
+    padding: 55px 60px 50px 40px;
     gap: 79px;
     text-align: justify;
   }
@@ -223,7 +223,7 @@ background-image: url(../images/card-lot-03.jpg);
 
   .about {
     margin-top: 118px;
-    padding: 180px 24px 90px 0px;
+    padding: 180px 24px 120px 0px;
   }
   
   .about_column {
