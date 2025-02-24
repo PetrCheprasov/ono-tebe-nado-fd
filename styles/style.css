@@ -72,38 +72,37 @@
 
   .cover_title {
     display: flex;
+    gap: 23px;
     flex-direction: column;
-    padding: 167px 50px 50px;
+    padding: 165px 50px 50px;
     text-align: center;
-    letter-spacing: 15px;
-    margin: 0 5px;
   }
   
   .text_cover { 
     align-self: flex-start;
-    line-height: 115%;
+    line-height: 115px;
     text-align: center;  
     font-weight: 700px;
     font-size: 100px;
+    letter-spacing: 30px;
  
   }
   .aligned-text_left {
-    letter-spacing: 15px;
-    margin: 30px;
+    
   }
   
   .aligned-text_center {
     align-self: center;  
     text-align: center;
-    letter-spacing: 15px;
-    margin: 30px;
+    margin-right: -0.3em;
+  
   }
   
   .aligned-text_right {
     align-self: flex-end;  
     text-align: right;
-    letter-spacing: 15px;
-    margin: 30px;
+    margin-right: -0.3em;
+   
   } 
 
   .cover_description {
